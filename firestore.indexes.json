@@ -1,0 +1,12 @@
+{
+  "indexes": [
+    {
+      "collectionId": "comments",
+      "fields": [
+        { "fieldPath": "userName", "mode": "ASCENDING" },
+        { "fieldPath": "created", "mode": "DESCENDING" },
+        { "fieldPath": "comment", "mode": "ASCENDING" }
+      ]
+    }
+  ]
+}
